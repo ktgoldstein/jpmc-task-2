@@ -23,7 +23,7 @@ class App extends Component<{}, IState> {
       // data saves the server responds.
       // We use this state to parse data down to the child element (Graph) as element property
       data: [],
-      showGraph: false
+      showGraph: false //only want graph to show when user indicates, initialize to false
     };
   }
 
